@@ -25,7 +25,7 @@
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-Access via: [http://localhost:4000/mtwebsite/](http://localhost:4000/mywebsite/)
+Access via: [http://localhost:4000/mywebsite/](http://localhost:4000/mywebsite/)
 
 If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
 
