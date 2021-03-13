@@ -1,0 +1,44 @@
+# Site settings
+title: Jean D. DURANDISSE
+description: 'Network and system Admin '
+url: 'fladjdd55.github.com'
+baseurl: '/mywebsite'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+  name: 'Jean D. DURANDISSE'
+  email: jeandinesse@durandisse.org
+  twitter_username: fladjdd55
+  facebook_username: fladjdd55
+  github_username:  fladjdd55
+  linkedin_username:  jeandinesse55
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
