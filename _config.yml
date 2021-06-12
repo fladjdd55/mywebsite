@@ -8,12 +8,12 @@ baseurl: '/'
 # disable_landing_page: true
 
 author:
-  name: 'Jean D. DURANDISSE'
-  email: jeandinesse@durandisse.org
+  name: 'Flad'
+  email: me@flad.me
   twitter_username: fladjdd55
   facebook_username: fladjdd55
   github_username:  fladjdd55
-  linkedin_username:  jeandinesse55
+  linkedin_username:  #
 
 defaults:
   -
